@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.icon{
+  width: 31.306px;
+height: 26.218px;
+flex-shrink: 0;
+margin-left: 30px;
+margin-right: 10px;
+}
+.icon-text{
+  margin-right: auto;
+  color: #FFF;
+font-family: Karla;
+font-size: 20.748px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2.075px;
+}
+.icon-subtext{
+    margin-right: 30px;
+    color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
